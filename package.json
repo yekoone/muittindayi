@@ -1,16 +1,13 @@
 {
-  "name": "muittindayi",
-  "version": "1.0.0",
-  "description": "Dişcord botu",
+  "name": "Muittin Dayi",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "app.js",
-  "author": "yekoone",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.2.1",
-    "express": "^4.16.2",
-    "opusscript": "0.0.6",
-  },
   "scripts": {
     "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
