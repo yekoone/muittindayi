@@ -51,7 +51,7 @@ bot.on('guildMemberAdd', member => {
     console.log( member.username+ ' sunucuya katıldı')
     var role= member.guild.roles.find('name','Kimliği Belirsiz Cisim!');
     member.addRole(role) //Kayıtsız rolü verme
-    member.guild.channels.get('464486903354228776').sendMessage(member.toString() + ", Hazretleri Hoşgeldiniz! Bizde Tam Sizi Bekliyorduk'); //Sunucuya katılan kişiye hoşgeldin mesajı
+    member.guild.channels.get('464486903354228776').sendMessage(member.toString() + ', Hazretleri Hoşgeldiniz! Bizde Tam Sizi Bekliyorduk'); //Sunucuya katılan kişiye hoşgeldin mesajı
 });
 
 //Sunucudan ayrılan kişiler
