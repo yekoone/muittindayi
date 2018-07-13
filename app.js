@@ -49,7 +49,7 @@ bot.on('ready',() =>
 //Sunucuya yeni giriş yapanlara yetki verme
 bot.on('guildMemberAdd', member => {
     console.log( member.username+ ' sunucuya katıldı')
-    member.addRole(member.guild.roles.find('name','Kimliği Belirsiz Cisim!')) //Kayıtsız rolü verme
+    member.addRole(member.guild.roles.find('name','Kimliği Belirsiz Cisim!')); //Kayıtsız rolü verme
     member.guild.channels.get('464486903354228776').sendMessage(member.toString() + " , Hazretleri Hoşgeldiniz! Bizde Tam Sizi Bekliyorduk"); //Sunucuya katılan kişiye hoşgeldin mesajı
 });
 
