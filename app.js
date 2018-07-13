@@ -56,7 +56,7 @@ bot.on('guildMemberAdd', member => {
 
 //Sunucudan ayrılan kişiler
 bot.on('guildMemberRemove', member => {
-  member.guild.channels.get('464486903354228776').sendMessage(member.toString() +", Sunucudan Ayrıldı. Yürü Git Lağnnn'); //Sunucudan ayrılan kişiye mesaj
+  member.guild.channels.get('464486903354228776').sendMessage(member.toString() + ', Sunucudan Ayrıldı. Yürü Git Lağnnn'); //Sunucudan ayrılan kişiye mesaj
 });
 //GİRİŞ
 bot.login(process.env.BOT_TOKEN);
